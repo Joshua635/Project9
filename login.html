@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Gym Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .wrapper {
+    /* border: 2px solid black; */
+    display: flex;
+            padding: 25px;
+            margin-left: 80px;
+            text-align: center;
+            overflow: hidden;
+            margin-top: 50px;
+            border-radius: 1rem;
+            justify-content: center;
+}
+.nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .nav ul li{
+        float: left;
+       
+    }
+    .nav ul li a{
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        justify-content: center;
+    }
+    
+    .nav a:hover{
+        background-color: green;
+        
+        color: black;
+        text-decoration: underline;
+        cursor: pointer;
+        transition-delay: 0.5s;
+        transform: translate(-1px, -13px);
+    }
+    .header{
+        background-image: url('./images/—Pngtree—an\ old\ gym\ setting\ with_2667256.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        
+        
+    }
+    @media screen and (max-width:700px) {
+        body{
+                margin:0;
+                padding: 0;
+            }
+        .header{
+                padding:20px;
+                font-size: 10px;
+
+            }
+        .wrapper{
+            height: 200px;
+                width: 300px;
+            display: flex;
+            padding: 25px;
+            margin-left: 80px;
+            text-align: center;
+            overflow: hidden;
+            box-shadow: 1px 1px 20px black;
+            margin-top: 50px;
+            border-radius: 1rem;
+            justify-content: center;
+        }
+        
+    }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <h1>ONLINE GYM AND FITNESS TRAINING</h1>
+    </div>
+
+        
+    
+
+    <div class="nav">
+        
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="">SIGNUP</a></li>
+            
+        </ul>
+        
+    </div>
+    
+    
+    <div class="wrapper">
+        <form action="">
+            <center>
+            
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="password"
+                placeholder="Password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="remember-frogot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#" forget password?</a>
+            </div>
+
+            <button type="submit" class="button">Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account</p>
+            </center>
+            </div>
+        </form>
+
+    </div>
+    
+</body>
+</html>
